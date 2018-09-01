@@ -1,1 +1,3 @@
-import SideBar from 'lib/elements/SideBar'
+import SideBar from 'lib/elements/SideBar';
+
+export default SideBar;

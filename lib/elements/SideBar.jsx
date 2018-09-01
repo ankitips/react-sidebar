@@ -1,5 +1,4 @@
 import React from 'react';
-import SideMenu from 'components/mobile/sidebar/SideMenu';
 import "../styles/SideBar.css";
 
 const overlay= document.getElementById("mobile_overlay");
@@ -41,7 +40,9 @@ class CustomSideBar extends React.Component{
             <div>
                 <div id="mySidenav" className="sidenav">
                     <a href="javascript:void(0)" className="closebtn" onClick={this.closeNav}>X</a>
-                    <SideMenu />
+                    <div>
+                        Side Menu content here.....
+                    </div>
                 </div>
                 <span onClick={this.openNav}>
                    <a className="icon-bar float-left menu_index"></a>
